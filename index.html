@@ -3,18 +3,177 @@
   <head>
     <title>Portfolio::Vijay Kumar</title>
     <link rel="stylesheet" href="assets/css/app.css"></link>
+    <link rel="stylesheet" href="assets/css/progressbar.css"></link>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous"></link>
   </head>
   <body>
-    <section>
+    <section class="info-banner-section">
       <div class="container-lg">
         <h1>Vijay Kumar</h1>
         <p>I'm India based front-end developer focused on crafting <br/>clean & user-friendly experience</p>
       </div>
     </section>
-    <footer></footer>
+    <section class="skills-section">
+      <h3 class="text-center">My Skills</h3>
+      <div class="container-lg">
+        <div class="row">
+            <div class="col-md-4">
+              <div class='html-bar' data-width='90' data-target='100'>HTML 4/5</div>
+            </div>
+            <div class="col-md-4">
+              <div class='css-bar' data-width='90' data-target='100'>CSS 3/4</div>
+            </div>
+            <div class="col-md-4">
+              <div class='scss-bar' data-width='90' data-target='100'>SCSS</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class='bootstrap-bar' data-width='85' data-target='100'>Bootstrap 3/4</div>
+          </div>
+          <div class="col-md-4">
+            <div class='foundation-bar' data-width='70' data-target='100'>Zurb Foundation</div>
+          </div>
+          <div class="col-md-4">
+            <div class='material-bar' data-width='65' data-target='100'>Material UI</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class='javascript-bar' data-width='80' data-target='100'>Javascript/JQuery</div>
+          </div>
+          <div class="col-md-4">
+            <div class='ecma-bar' data-width='76' data-target='100'>ES 6/7/8</div>
+          </div>
+          <div class="col-md-4">
+            <div class='redux-bar' data-width='83' data-target='100'>Redux</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class='react-bar' data-width='82' data-target='100'>ReactJs</div>
+          </div>
+          <div class="col-md-4">
+            <div class='angular-bar' data-width='60' data-target='100'>AngularJs 1</div>
+          </div>
+          <div class="col-md-4">
+            <div class='vue-bar' data-width='45' data-target='100'>VueJs</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center">Handcrafted by me Ⓒ twentynineteen</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/progressbar.js"></script>
+  <script>
+    $('.html-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#DD4C26',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.css-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#254BDE',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.scss-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#CA6196',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.bootstrap-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#6C41A0',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.foundation-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#14A2C2',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.material-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#00ABF8',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.javascript-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#F58233',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.redux-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#7348B7',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.ecma-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#F6C312',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.angular-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#E02837',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.react-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#5ED4F3',
+        height: '20',
+        animateTarget: true
+  	});
+    $('.vue-bar').progressBar({
+  			shadow : true,
+  			percentage : true,
+  			animation : true,
+        barColor: '#3FB37F',
+        height: '20',
+        animateTarget: true
+  	});
+  </script>
 </html>
