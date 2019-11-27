@@ -16,6 +16,11 @@ body .info-banner-section h1 {
 body .info-banner-section p {
   color: #fff;
   font-size: 32px;
+  margin-bottom: 0;
+}
+body .info-banner-section span{
+  color: #fff;
+  font-size: 14px;
 }
 body .skills-section{
   padding: 60px 0;
